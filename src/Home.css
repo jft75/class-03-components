@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+main {
+  @apply p-4 space-y-2;
+}
+
+h2 {
+  @apply text-lg font-semibold;
+}
+
+.gallery {
+  @apply flex flex-wrap gap-4;
+}
+
+.card {
+  @apply overflow-auto rounded-lg bg-slate-200 max-w-70;
+}
+
+.card .image {
+  @apply object-cover;
+}
+
+.card .description {
+  @apply text-center p-1;
+}
